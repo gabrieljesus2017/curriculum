@@ -155,3 +155,324 @@ Aqui se define el color de fondo y la fuente que se va a utilizar en todo el doc
     line-height: 24px;
 }
 
+/* X-Small devices (portrait phones, less than 576px)
+ No media query for `xs` since this is the default in Bootstrap*/
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    /* body es el cuerpo total de la pagina descrito en el codigo HTML
+Aqui se define el color de fondo y la fuente que se va a utilizar en todo el documento*/
+.contenedor-principal {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: white;
+    width: 1200px;
+    margin: 40px auto;
+}
+
+.informacion-principal{
+    padding: 100px 88px;
+}
+.descripcion {
+    margin-bottom: 40px;
+    width: 400px;
+}
+.backend {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+.name{
+    /*Margen y fuente del nombre*/
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 26px;
+    margin-top: 19px;
+}
+.letras-descripcion{
+    /*Letras de la descripcion*/
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+.titulos-descripcion{
+    /*Titulos de proyectos,trabajos y educacion*/
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 45px;
+}
+.lista-proyectos{
+    padding-left: 17px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+.enlaces-proyectos{
+    color: #595959;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.suspendidos{
+    color: #595959;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+/**********************/
+/* Experiencia Laboral*/
+.experiencia-laboral{
+    width: 525px;
+}
+.orange{
+    color: #FB6D3A;
+}
+.puestos{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+.fechas{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: black;
+}
+.funciones-puesto{
+    padding-left: 17px;
+}
+.funciones-puesto > li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.U{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+.titulo{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+
+/*Informacion lateral lista*/
+
+.informacion-lateral{
+    padding: 40px 0;
+    background-color: #1E2939;
+}
+
+.titulos-laterales{
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 50px;
+}
+.contacto , .tecnicas, .blandas {
+    color: white;
+    margin-left: 40px;
+}
+
+.num, .correo {
+    color: rgb(102, 108, 120);
+}
+
+.lista-lateral{
+    padding-left: 18px;
+}
+
+.lista-lateral > li {
+    color: #FB6D3A;
+}
+.letras-listas{
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+  }
+
+ /*Medium devices (tablets, 768px and up)*/
+@media screen and (min-width: 768px) { /* body es el cuerpo total de la pagina descrito en el codigo HTML
+    Aqui se define el color de fondo y la fuente que se va a utilizar en todo el documento*/
+    .contenedor-principal {
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: white;
+        width: 1200px;
+        margin: 40px auto;
+    }
+    
+    .informacion-principal{
+        padding: 100px 88px;
+    }
+    .descripcion {
+        margin-bottom: 40px;
+        width: 400px;
+    }
+    .backend {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .name{
+        /*Margen y fuente del nombre*/
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 55px;
+        margin-bottom: 26px;
+        margin-top: 19px;
+    }
+    .letras-descripcion{
+        /*Letras de la descripcion*/
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 40px;
+    }
+    .titulos-descripcion{
+        /*Titulos de proyectos,trabajos y educacion*/
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        margin-top: 45px;
+    }
+    .lista-proyectos{
+        padding-left: 17px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .enlaces-proyectos{
+        color: #595959;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .suspendidos{
+        color: #595959;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 2px;
+    }
+    /**********************/
+    /* Experiencia Laboral*/
+    .experiencia-laboral{
+        width: 525px;
+    }
+    .orange{
+        color: #FB6D3A;
+    }
+    .puestos{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .fechas{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: black;
+    }
+    .funciones-puesto{
+        padding-left: 17px;
+    }
+    .funciones-puesto > li{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .U{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .titulo{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    
+    
+    /*Informacion lateral lista*/
+    
+    .informacion-lateral{
+        padding: 40px 0;
+        background-color: #1E2939;
+    }
+    
+    .titulos-laterales{
+        color: white;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        margin-top: 50px;
+    }
+    .contacto , .tecnicas, .blandas {
+        color: white;
+        margin-left: 40px;
+    }
+    
+    .num, .correo {
+        color: rgb(102, 108, 120);
+    }
+    
+    .lista-lateral{
+        padding-left: 18px;
+    }
+    
+    .lista-lateral > li {
+        color: #FB6D3A;
+    }
+    .letras-listas{
+        color: white;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    } }
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {  }
+
+ /*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  }
+
+ /*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { }
